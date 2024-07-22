@@ -19,9 +19,9 @@ export const Hero = () => {
   useEffect(() => {
     const updateImgSrc = () => {
       if (window.innerWidth >= 768) {
-        setImgSrc('https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=33&letterSpacing=-0.025&pause=1000&color=7A15F3&width=435&lines=Software+Engineer;Web+Developer;Data+Analyst');
+        setImgSrc('https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=33&letterSpacing=-0.025&pause=1000&color=7A15F3&width=435&lines=Software+Developer;Web+Developer;Data+Analyst');
       } else {
-        setImgSrc('https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&letterSpacing=-0.025&pause=1000&color=871BC8&center=true&vCenter=true&width=435&lines=Software+Engineer;Web+Developer;Data+Analyst');
+        setImgSrc('https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&letterSpacing=-0.025&pause=1000&color=871BC8&center=true&vCenter=true&width=435&lines=Software+Developer;Web+Developer;Data+Analyst');
       }
     };
 
