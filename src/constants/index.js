@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `
 I am a passionate full stack developer specializing in building robust and scalable web applications. With experience in front-end technologies like React.js and back-end technologies like Node.js, Express.js, and MongoDB, I aim to create innovative solutions that drive business growth and enhance user experiences. My projects, including an e-commerce site and BookBaazar, showcase my skills in user authentication plus efficient database management, and API integration`;
@@ -10,13 +11,12 @@ export const ABOUT_TEXT = `I am a passionate full stack developer with a knack f
 
 export const EXPERIENCES = [
   {
-    year: "June 2024 - Present",
+    year: "June 2024 - July 2024",
     role: "SDE Intern",
     company: "Tradealone",
     description: `Analyzed stock datasets from 10+ companies using Python and Apache Spark to derive insights,
- Optimized database queries to enhance efficiency and performance ans
- Worked on PHP authentication for secure user authentication processes.`,
-    technologies: ["PHP", "MySQL", "Numpy", "Pandas"],
+ Worked on the frontEnd of the website for TrendLine and also implemented a code base that makes API calls to Yahoo Finance.`,
+    technologies: ["Spark", "MySQL", "Numpy", "Pandas"],
   },
   {
     year: "2023 June - 2023 July",
@@ -68,6 +68,15 @@ export const PROJECTS = [
       "In this project, I utilized Pandas to analyze global data on confirmed, deaths, and recovered cases. I identified regions with the highest number of confirmed and death cases, specifically highlighting Pakistan's statistics.",
     technologies: ["Juypter Notebook", "Pandas", "Matplotlib"],
   },
+  {
+    title: "CampusNest",
+    image: project5, 
+    demo: 'https://campusnest-eight.vercel.app/', 
+    description:
+      "A MERN stack application 'CampusNest' designed to provide accommodation and room rental services with user authentication and a booking management system, capable of handling 100+ concurrent users.",
+    technologies: ["Express.js", "APIs", "React", "Node.js", "MongoDB","Firebase"],
+},
+
 ];
 
 export const CONTACT = {

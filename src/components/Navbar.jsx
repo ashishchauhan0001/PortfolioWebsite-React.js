@@ -21,7 +21,7 @@ const Navbar = () => {
         <a href="https://github.com/ashishchauhan0001"><FaGithub/></a>
         <a href="https://www.instagram.com/ashish_chauhan29?igsh=MWNpeW9zM2RhemdpcQ==" className="text-pink-500"><FaInstagram/></a>
         <a href="https://leetcode.com/u/Akki2910/" className="text-orange-600"><SiLeetcode /></a>
-        <a href="https://drive.google.com/file/d/17MbSpzF6X8Qj_1WSuKScV9f26nDc4bVL/view?usp=sharing" className="text-yellow-300"><IoIosDocument /></a>
+        <a href="https://drive.google.com/file/d/1nFlykTXxWZI_eL4PieJHK8LRHRqoTk9H/view?usp=sharing" className="text-yellow-300"><IoIosDocument /></a>
       </div>
       <div className="md:hidden flex items-center">
         <button onClick={toggleMenu} className="text-2xl focus:outline-none">
