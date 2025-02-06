@@ -1,9 +1,11 @@
 import React from 'react';
-import { SiCplusplus, SiExpress, SiMongodb, SiAmazonaws, SiVisualstudiocode, SiNetlify, SiPostman, SiCpanel, SiNumpy, SiPandas } from "react-icons/si";
+import { SiCplusplus, SiExpress, SiMongodb, SiAmazonaws, SiVisualstudiocode, SiNetlify, SiPostman, SiCpanel, SiNumpy, SiPandas, SiTypescript } from "react-icons/si";
 import { DiMysql, DiNodejs } from "react-icons/di";
-import { RiReactjsLine, RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiReactjsLine, RiJavascriptFill, RiTailwindCssFill,RiNextjsFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
+import { FaDatabase } from "react-icons/fa6";
+
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -24,18 +26,21 @@ export const Technologies = () => {
     { component: <RiReactjsLine className="text-7xl text-cyan-400" />, link: "https://reactjs.org/" },
     { component: <RiJavascriptFill className="text-7xl text-yellow-400" />, link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
     { component: <SiMongodb className="text-7xl text-green-500" />, link: "https://www.mongodb.com/" },
+    { component: <FaDatabase className='text-7xl text-orange-700' />, link: "https://www.firebase.google.com/" },
     { component: <SiExpress className="text-7xl text-blue-400" />, link: "https://expressjs.com/" },
     { component: <DiNodejs className="text-7xl text-green-500" />, link: "https://nodejs.org/" },
     { component: <RiTailwindCssFill className="text-7xl text-sky-300" />, link: "https://tailwindcss.com/" },
     { component: <DiMysql className="text-7xl text-sky-700" />, link: "https://www.mysql.com/" },
     { component: <SiNumpy className="text-7xl text-sky-700" />, link: "https://numpy.org/" },
     { component: <SiPandas className="text-7xl text-green-700" />, link: "https://pandas.pydata.org/" },
+    { component: <RiNextjsFill className='text-7xl text-sky-500' />, link: "https://nextjs.org/docs" },
     { component: <FiGithub className="text-7xl" />, link: "https://github.com/" },
     { component: <SiAmazonaws className="text-7xl text-orange-400" />, link: "https://aws.amazon.com/" },
+    { component: <SiCpanel className="text-7xl" />, link: "https://cpanel.net/" },
     { component: <SiVisualstudiocode className="text-7xl text-sky-600" />, link: "https://code.visualstudio.com/" },
     { component: <SiNetlify className="text-7xl text-sky-400" />, link: "https://www.netlify.com/" },
     { component: <SiPostman className="text-7xl text-orange-600" />, link: "https://www.postman.com/" },
-    { component: <SiCpanel className="text-7xl" />, link: "https://cpanel.net/" },
+    { component: <SiTypescript className='text-7xl text-blue-400' />, link: "https://www.typescriptlang.org/docs/" },
   ];
 
   return (

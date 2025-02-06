@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `
 I am a passionate full stack developer specializing in building robust and scalable web applications. With experience in front-end technologies like React.js and back-end technologies like Node.js, Express.js, and MongoDB, I aim to create innovative solutions that drive business growth and enhance user experiences. My projects, including an e-commerce site and BookBaazar, showcase my skills in user authentication plus efficient database management, and API integration`;
@@ -75,7 +76,15 @@ export const PROJECTS = [
     description:
       "A MERN stack application 'CampusNest' designed to provide accommodation and room rental services with user authentication and a booking management system, capable of handling 100+ concurrent users.",
     technologies: ["Express.js", "APIs", "React", "Node.js", "MongoDB","Firebase"],
-},
+},{
+  title: "Singh Building Material",
+  image: project6, 
+  demo: 'https://singh-building-material.vercel.app/', 
+  description:
+    "A Next.js and Tailwind CSS-based website for 'Singh Building Material,' showcasing a comprehensive product catalog, shop details, and an embedded map for easy location access. The website also features a dedicated 'Contact Us' page for customer inquiries.",
+  technologies: ["Next.js", "Tailwind CSS", "APIs", "Google Maps", "React"],
+}
+
 
 ];
 
